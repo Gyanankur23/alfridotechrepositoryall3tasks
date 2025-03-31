@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #0077b6;
+}
+
+#upload-section, #ioos-tools-section {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f8d;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #0077b6;
+}
+
+th, td {
+    padding: 10px;
+}
+

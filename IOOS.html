@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOOS Tool Interface</title>
+    <link rel="stylesheet" href="IOOS.css">
+    <script src="https://pyscript.net/latest/IOOS.js"></script>
+</head>
+<body>
+    <h1>IOOS Tool Data Interface</h1>
+    <div id="upload-section">
+        <label for="file-upload">Upload Dataset (CSV):</label>
+        <input type="file" id="file-upload">
+        <button id="process-button">Process Dataset</button>
+    </div>
+
+    <div id="ioos-tools-section">
+        <h2>IOOS Tools</h2>
+        <button id="quality-check-button">Run Quality Control (QC) Checks</button>
+    </div>
+
+    <div id="output-section">
+        <h2>Dataset Preview:</h2>
+        <table id="data-table">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+        <h2>QC Results:</h2>
+        <div id="qc-results"></div>
+    </div>
+</body>
+</html>
